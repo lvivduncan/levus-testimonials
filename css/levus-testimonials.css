@@ -24,11 +24,10 @@
 
 #levus-testimonials li{
     display: inline-block;
-    /* float: left; */
     width: 100%;
     padding: 10px;
 }
 
 .move {
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
