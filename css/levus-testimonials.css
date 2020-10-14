@@ -4,27 +4,26 @@
     box-sizing: border-box;
 }
 
-#demo{
+#testimonials{
     margin: 100px;
     width: 400px;
     height: 200px;
 }
 
-/* горизонтальний скрол на 1 елемент */
 #levus-testimonials{
     position: relative;
     overflow: hidden;
 }
 
 #levus-testimonials ul{
-    white-space: nowrap;
     position: relative;
     left: -100%;
+    display:grid;
+    grid-template-columns: repeat(100,100%);
 }
 
 #levus-testimonials li{
-    display: inline-block;
-    width: 100%;
+    display: block;
     padding: 10px;
 }
 
